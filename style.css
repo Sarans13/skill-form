@@ -1,0 +1,81 @@
+body{
+  background-color: rgb(248, 135, 94);
+}
+.head{
+  text-align: center;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 40px;
+}
+.form{
+  background-color: black;
+  margin: 55px 5%;
+  padding: 30px 60px;
+  border-radius: 20px;
+}
+.row {
+  display: vertical;  
+  margin: auto;
+}
+.col {
+  padding: 20px 40px;
+  text-align: left;
+  margin: auto;
+}
+.form-control{
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  padding: 10px 25px;
+  background-color: rgb(42, 40, 40);
+  color: white;
+}
+label{
+  display: block;
+  color: antiquewhite;
+  text-align: left;
+}
+::placeholder{
+  color: white;
+}
+input{
+  color: white;
+  border-radius: 6px;
+}
+.improve{
+  margin-bottom: 15px;
+}
+.btn{
+  padding: 15px 40px;
+  background-color: tomato;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: azure;
+  font-weight: 700;
+  margin-left: 45%;
+}
+textarea{
+  width: 100%;
+  background-color: rgb(42, 40, 40);
+  border-radius: 6px;
+}
+select{
+  border-radius: 6px;
+}
+option{
+  color: white;
+}
+@media only screen and (max-width: 900px) {
+  .row {
+      
+      grid-template-columns: auto auto;
+      
+  }
+}
+@media only screen and (max-width: 600px) {
+  .row {
+      grid-template-columns: auto;
+      
+  }
+}
