@@ -59,6 +59,7 @@ textarea{
   width: 100%;
   background-color: rgb(42, 40, 40);
   border-radius: 6px;
+  color: white;
 }
 select{
   border-radius: 6px;
